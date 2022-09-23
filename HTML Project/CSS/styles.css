@@ -1,0 +1,112 @@
+header 
+{
+    font-family: Verdana;
+    font-size: 3em;
+    font-variant-caps:small-caps;
+    text-align: center;
+    border: 10px;
+    border-style: solid;
+    background-color: rgba(0, 255, 179, 0.322);
+    scale: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+h1{
+
+    font-variant-caps:small-caps;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+img{
+
+    font-variant-caps:small-caps;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#Image1, #Image2, #Image3, #Image4, #Image5, #Image6, #Image7, #Image8, #Image9, #Image10, #Image11, #Image12, #Image13, #Image14, #Image15, #Image16{
+   
+    width: 25%;
+    padding: 3em;
+    justify-content: space-around;
+
+}
+
+#Images{
+
+    padding: 15px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+#About{
+
+    font-variant-caps:small-caps;
+    border: black
+}
+
+
+#Container{
+    justify-content: space-around;
+
+}
+
+#ContainerBody{
+
+    background-color: rgb(248, 248, 213);
+    width: 95%;
+    margin: 0 auto;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-family: verdana;
+    font-size: large;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+#Resources{
+
+    font-weight: bold;
+    font-size: 1.5em;
+    
+}
+
+#Footer{
+
+    scale: 100%;
+    background-color: rgba(0, 255, 179, 0.322);
+    font-variant-caps:small-caps;
+    text-align: center;
+    font-weight: 500;
+    border: 100%; 
+    border-style: solid;
+}
+
+a:link{
+
+    color: rgb(25, 0, 255);
+
+}
+
+
+a:visited{
+
+    color: rgb(255, 115, 0);
+
+}
+
+a:hover{
+
+    font-weight: bold;
+    color:maroon
+
+}
